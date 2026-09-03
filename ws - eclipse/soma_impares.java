@@ -19,7 +19,7 @@ public class soma_impares {
 			y = troca;
 		}
 		for(int i = x + 1; i < y; i++) {
-			if(i % 2 == 1) {
+			if(i % 2 != 0) {
 			soma = soma + i;
 			}
 		}
